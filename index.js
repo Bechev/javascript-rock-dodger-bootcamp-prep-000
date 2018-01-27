@@ -62,7 +62,7 @@ function createRock(x) {
    * it to GAME and move it downwards.
    */
    let game = Document.getElementById('game');
-   game.append('rock')
+   game.append(rock)
   /**
    * This function moves the rock. (2 pixels at a time
    * seems like a good pace.)
